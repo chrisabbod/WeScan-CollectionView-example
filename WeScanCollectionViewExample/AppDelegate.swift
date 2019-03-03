@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        //Setup a Realm database object and write our data to it
+        do {
+            _ = try Realm()
+            
+        } catch {
+            print("Error initializing new realm \(error)")
+        }
+        
         return true
     }
 

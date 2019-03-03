@@ -12,7 +12,10 @@ import RealmSwift
 
 class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, ImageScannerControllerDelegate {
 
+    let realm = try! Realm()
+    var documents : Results<Document>?
     private let reuseIdentifier = "customDocumentCell"
+
     @IBOutlet weak var documentCollectionView: UICollectionView!
     
     override func viewDidLoad() {
