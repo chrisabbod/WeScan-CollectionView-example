@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BE5CD2F7739A76F591BA874 /* Pods_WeScanCollectionViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111FBB25F6182B26F55A0A4C /* Pods_WeScanCollectionViewExampleUITests.framework */; };
 		A501B829222C559A0039FA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B828222C559A0039FA60 /* AppDelegate.swift */; };
-		A501B82B222C559A0039FA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B82A222C559A0039FA60 /* ViewController.swift */; };
+		A501B82B222C559A0039FA60 /* DocumentCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B82A222C559A0039FA60 /* DocumentCollectionVC.swift */; };
 		A501B82E222C559A0039FA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A501B82C222C559A0039FA60 /* Main.storyboard */; };
 		A501B830222C559B0039FA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A501B82F222C559B0039FA60 /* Assets.xcassets */; };
 		A501B833222C559B0039FA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A501B831222C559B0039FA60 /* LaunchScreen.storyboard */; };
 		A501B83E222C559B0039FA60 /* WeScanCollectionViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B83D222C559B0039FA60 /* WeScanCollectionViewExampleTests.swift */; };
 		A501B849222C559B0039FA60 /* WeScanCollectionViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B848222C559B0039FA60 /* WeScanCollectionViewExampleUITests.swift */; };
+		A501B85A222C78CB0039FA60 /* DocumentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B858222C78CB0039FA60 /* DocumentCollectionViewCell.swift */; };
+		A501B85B222C78CB0039FA60 /* DocumentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A501B859222C78CB0039FA60 /* DocumentCollectionViewCell.xib */; };
+		D5393A41D6C492F3D97A6F89 /* Pods_WeScanCollectionViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06580E107B637D7839FDC1CC /* Pods_WeScanCollectionViewExample.framework */; };
+		EE9B85316EF85082FFC324AC /* Pods_WeScanCollectionViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35202B1422BE229130113A0 /* Pods_WeScanCollectionViewExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06580E107B637D7839FDC1CC /* Pods_WeScanCollectionViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeScanCollectionViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF7FDBF5B2530325F481F64 /* Pods-WeScanCollectionViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExample/Pods-WeScanCollectionViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		111FBB25F6182B26F55A0A4C /* Pods_WeScanCollectionViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeScanCollectionViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A1D17EC2803CB674F1FFB /* Pods-WeScanCollectionViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExampleUITests/Pods-WeScanCollectionViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45D8A938261450588596C7EF /* Pods-WeScanCollectionViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExampleTests/Pods-WeScanCollectionViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58F073DC734F902E5C165ED0 /* Pods-WeScanCollectionViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExampleUITests/Pods-WeScanCollectionViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A501B825222C559A0039FA60 /* WeScanCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeScanCollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A501B828222C559A0039FA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A501B82A222C559A0039FA60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A501B82A222C559A0039FA60 /* DocumentCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCollectionVC.swift; sourceTree = "<group>"; };
 		A501B82D222C559A0039FA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A501B82F222C559B0039FA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A501B832222C559B0039FA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		A501B844222C559B0039FA60 /* WeScanCollectionViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeScanCollectionViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A501B848222C559B0039FA60 /* WeScanCollectionViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeScanCollectionViewExampleUITests.swift; sourceTree = "<group>"; };
 		A501B84A222C559B0039FA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A501B858222C78CB0039FA60 /* DocumentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCollectionViewCell.swift; sourceTree = "<group>"; };
+		A501B859222C78CB0039FA60 /* DocumentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentCollectionViewCell.xib; sourceTree = "<group>"; };
+		A915B1004E9FB89C6A114E98 /* Pods-WeScanCollectionViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExampleTests/Pods-WeScanCollectionViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C35202B1422BE229130113A0 /* Pods_WeScanCollectionViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeScanCollectionViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6EC494410BF582BD8F6F7 /* Pods-WeScanCollectionViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExample/Pods-WeScanCollectionViewExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5393A41D6C492F3D97A6F89 /* Pods_WeScanCollectionViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9B85316EF85082FFC324AC /* Pods_WeScanCollectionViewExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE5CD2F7739A76F591BA874 /* Pods_WeScanCollectionViewExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				A501B83C222C559B0039FA60 /* WeScanCollectionViewExampleTests */,
 				A501B847222C559B0039FA60 /* WeScanCollectionViewExampleUITests */,
 				A501B826222C559A0039FA60 /* Products */,
+				EFD24F4D06F936C2ED460F0A /* Pods */,
+				DF4D22E98552521063443084 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				A501B828222C559A0039FA60 /* AppDelegate.swift */,
-				A501B82A222C559A0039FA60 /* ViewController.swift */,
-				A501B82C222C559A0039FA60 /* Main.storyboard */,
+				A501B857222C780E0039FA60 /* View */,
+				A501B856222C78040039FA60 /* Controller */,
 				A501B82F222C559B0039FA60 /* Assets.xcassets */,
 				A501B831222C559B0039FA60 /* LaunchScreen.storyboard */,
 				A501B834222C559B0039FA60 /* Info.plist */,
@@ -125,6 +146,55 @@
 			path = WeScanCollectionViewExampleUITests;
 			sourceTree = "<group>";
 		};
+		A501B856222C78040039FA60 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A501B82A222C559A0039FA60 /* DocumentCollectionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A501B857222C780E0039FA60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A501B82C222C559A0039FA60 /* Main.storyboard */,
+				A501B85C222C78D00039FA60 /* CustomDocumentCollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A501B85C222C78D00039FA60 /* CustomDocumentCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A501B858222C78CB0039FA60 /* DocumentCollectionViewCell.swift */,
+				A501B859222C78CB0039FA60 /* DocumentCollectionViewCell.xib */,
+			);
+			path = CustomDocumentCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DF4D22E98552521063443084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06580E107B637D7839FDC1CC /* Pods_WeScanCollectionViewExample.framework */,
+				C35202B1422BE229130113A0 /* Pods_WeScanCollectionViewExampleTests.framework */,
+				111FBB25F6182B26F55A0A4C /* Pods_WeScanCollectionViewExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFD24F4D06F936C2ED460F0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7FDBF5B2530325F481F64 /* Pods-WeScanCollectionViewExample.debug.xcconfig */,
+				FBF6EC494410BF582BD8F6F7 /* Pods-WeScanCollectionViewExample.release.xcconfig */,
+				45D8A938261450588596C7EF /* Pods-WeScanCollectionViewExampleTests.debug.xcconfig */,
+				A915B1004E9FB89C6A114E98 /* Pods-WeScanCollectionViewExampleTests.release.xcconfig */,
+				58F073DC734F902E5C165ED0 /* Pods-WeScanCollectionViewExampleUITests.debug.xcconfig */,
+				330A1D17EC2803CB674F1FFB /* Pods-WeScanCollectionViewExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A501B84D222C559B0039FA60 /* Build configuration list for PBXNativeTarget "WeScanCollectionViewExample" */;
 			buildPhases = (
+				AD6E6652344A1FC7FAB4EF19 /* [CP] Check Pods Manifest.lock */,
 				A501B821222C559A0039FA60 /* Sources */,
 				A501B822222C559A0039FA60 /* Frameworks */,
 				A501B823222C559A0039FA60 /* Resources */,
+				B7F0ECE7AB3035985855ADFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A501B850222C559B0039FA60 /* Build configuration list for PBXNativeTarget "WeScanCollectionViewExampleTests" */;
 			buildPhases = (
+				9C5E457F94AF4D520243A913 /* [CP] Check Pods Manifest.lock */,
 				A501B835222C559B0039FA60 /* Sources */,
 				A501B836222C559B0039FA60 /* Frameworks */,
 				A501B837222C559B0039FA60 /* Resources */,
@@ -167,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A501B853222C559B0039FA60 /* Build configuration list for PBXNativeTarget "WeScanCollectionViewExampleUITests" */;
 			buildPhases = (
+				28C40EE2BEAD7870B09C8354 /* [CP] Check Pods Manifest.lock */,
 				A501B840222C559B0039FA60 /* Sources */,
 				A501B841222C559B0039FA60 /* Frameworks */,
 				A501B842222C559B0039FA60 /* Resources */,
@@ -230,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A501B833222C559B0039FA60 /* LaunchScreen.storyboard in Resources */,
+				A501B85B222C78CB0039FA60 /* DocumentCollectionViewCell.xib in Resources */,
 				A501B830222C559B0039FA60 /* Assets.xcassets in Resources */,
 				A501B82E222C559A0039FA60 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +326,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28C40EE2BEAD7870B09C8354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeScanCollectionViewExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5E457F94AF4D520243A913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeScanCollectionViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6E6652344A1FC7FAB4EF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeScanCollectionViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F0ECE7AB3035985855ADFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeScanCollectionViewExample/Pods-WeScanCollectionViewExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WeScan/WeScan.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeScan.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeScanCollectionViewExample/Pods-WeScanCollectionViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A501B821222C559A0039FA60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A501B82B222C559A0039FA60 /* ViewController.swift in Sources */,
+				A501B82B222C559A0039FA60 /* DocumentCollectionVC.swift in Sources */,
+				A501B85A222C78CB0039FA60 /* DocumentCollectionViewCell.swift in Sources */,
 				A501B829222C559A0039FA60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +597,7 @@
 		};
 		A501B84E222C559B0039FA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF7FDBF5B2530325F481F64 /* Pods-WeScanCollectionViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +616,7 @@
 		};
 		A501B84F222C559B0039FA60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF6EC494410BF582BD8F6F7 /* Pods-WeScanCollectionViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +635,7 @@
 		};
 		A501B851222C559B0039FA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D8A938261450588596C7EF /* Pods-WeScanCollectionViewExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +657,7 @@
 		};
 		A501B852222C559B0039FA60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A915B1004E9FB89C6A114E98 /* Pods-WeScanCollectionViewExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		A501B854222C559B0039FA60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F073DC734F902E5C165ED0 /* Pods-WeScanCollectionViewExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +700,7 @@
 		};
 		A501B855222C559B0039FA60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330A1D17EC2803CB674F1FFB /* Pods-WeScanCollectionViewExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

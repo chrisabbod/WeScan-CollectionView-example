@@ -1,0 +1,6 @@
+framework module Pods_WeScanCollectionViewExampleTests {
+  umbrella header "Pods-WeScanCollectionViewExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
