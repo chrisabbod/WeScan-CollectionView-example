@@ -38,4 +38,7 @@ class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UIColl
         return cell
     }
     
+    @IBAction func addDocumentButton(_ sender: UIBarButtonItem) {
+        
+    }
 }
