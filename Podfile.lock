@@ -1,16 +1,26 @@
 PODS:
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
   - WeScan (1.0.0)
 
 DEPENDENCIES:
+  - RealmSwift
   - WeScan (>= 0.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
     - WeScan
 
 SPEC CHECKSUMS:
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
   WeScan: a049a4a2a0eb1c4560cf649ebd933d07b0d9ef4c
 
-PODFILE CHECKSUM: 4ed8abcbfb6439d709970016a1a5878583122f20
+PODFILE CHECKSUM: 0928d59fecedb4be8ebc78e21c7ef9009b600fc7
 
 COCOAPODS: 1.5.3

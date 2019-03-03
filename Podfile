@@ -7,6 +7,7 @@ target 'WeScanCollectionViewExample' do
 
   # Pods for WeScanCollectionViewExample
     pod 'WeScan', '>= 0.9'
+    pod 'RealmSwift'
 
   target 'WeScanCollectionViewExampleTests' do
     inherit! :search_paths
