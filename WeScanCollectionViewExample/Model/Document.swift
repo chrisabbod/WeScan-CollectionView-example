@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import RealmSwift
+
+class Document: Object {
+    
+    @objc dynamic var title: String = ""
+    @objc dynamic var uuid: String = NSUUID().uuidString
+    @objc dynamic var imagePath: String = ""
+    
+}
+

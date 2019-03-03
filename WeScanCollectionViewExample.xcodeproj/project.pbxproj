@@ -17,6 +17,7 @@
 		A501B849222C559B0039FA60 /* WeScanCollectionViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B848222C559B0039FA60 /* WeScanCollectionViewExampleUITests.swift */; };
 		A501B85A222C78CB0039FA60 /* DocumentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B858222C78CB0039FA60 /* DocumentCollectionViewCell.swift */; };
 		A501B85B222C78CB0039FA60 /* DocumentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A501B859222C78CB0039FA60 /* DocumentCollectionViewCell.xib */; };
+		A501B85E222C7B240039FA60 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = A501B85D222C7B240039FA60 /* Document.swift */; };
 		D5393A41D6C492F3D97A6F89 /* Pods_WeScanCollectionViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06580E107B637D7839FDC1CC /* Pods_WeScanCollectionViewExample.framework */; };
 		EE9B85316EF85082FFC324AC /* Pods_WeScanCollectionViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35202B1422BE229130113A0 /* Pods_WeScanCollectionViewExampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		A501B84A222C559B0039FA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A501B858222C78CB0039FA60 /* DocumentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCollectionViewCell.swift; sourceTree = "<group>"; };
 		A501B859222C78CB0039FA60 /* DocumentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentCollectionViewCell.xib; sourceTree = "<group>"; };
+		A501B85D222C7B240039FA60 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		A915B1004E9FB89C6A114E98 /* Pods-WeScanCollectionViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExampleTests/Pods-WeScanCollectionViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C35202B1422BE229130113A0 /* Pods_WeScanCollectionViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeScanCollectionViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF6EC494410BF582BD8F6F7 /* Pods-WeScanCollectionViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeScanCollectionViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeScanCollectionViewExample/Pods-WeScanCollectionViewExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				A501B828222C559A0039FA60 /* AppDelegate.swift */,
+				A501B85F222C7B290039FA60 /* Model */,
 				A501B857222C780E0039FA60 /* View */,
 				A501B856222C78040039FA60 /* Controller */,
 				A501B82F222C559B0039FA60 /* Assets.xcassets */,
@@ -170,6 +173,14 @@
 				A501B859222C78CB0039FA60 /* DocumentCollectionViewCell.xib */,
 			);
 			path = CustomDocumentCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A501B85F222C7B290039FA60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A501B85D222C7B240039FA60 /* Document.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DF4D22E98552521063443084 /* Frameworks */ = {
@@ -426,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A501B85E222C7B240039FA60 /* Document.swift in Sources */,
 				A501B82B222C559A0039FA60 /* DocumentCollectionVC.swift in Sources */,
 				A501B85A222C78CB0039FA60 /* DocumentCollectionViewCell.swift in Sources */,
 				A501B829222C559A0039FA60 /* AppDelegate.swift in Sources */,
