@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18B424941F49254531BF07974A5FC76F"
+               BlueprintIdentifier = "F7E015D5AABE14F25C36B71BCF9FCDA8"
                BlueprintName = "WeScan"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "WeScan.framework">
