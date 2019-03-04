@@ -13,7 +13,8 @@ import RealmSwift
 class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, ImageScannerControllerDelegate {
 
     let realm = try! Realm()
-    var documents : Results<Document>?
+    //var documents : Results<Document>?
+    var documents: [UIImage] = []
     private let reuseIdentifier = "customDocumentCell"
 
     @IBOutlet weak var documentCollectionView: UICollectionView!
@@ -24,9 +25,13 @@ class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UIColl
         self.documentCollectionView.register(UINib(nibName: "DocumentCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
 
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        loadDocuments()
+    }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return documents.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -35,11 +40,14 @@ class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UIColl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! DocumentCollectionViewCell
         
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
-        //cell.imageView.image = UIImage(named: images[indexPath.item])
-        cell.documentImageView.backgroundColor = UIColor.cyan
+        cell.documentImageView.image = documents[indexPath.item]
         cell.layer.cornerRadius = 10
         
         return cell
+    }
+    
+    func loadDocuments() {
+        documentCollectionView.reloadData()
     }
     
     //MARK: - WeScan Methods
@@ -71,7 +79,7 @@ class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UIColl
         
         newDocument.imagePath = imagePath
         
-        //saveDocument(newDocument)
+        documents.append(newImage)
         
         scanner.dismiss(animated: true)
     }
@@ -81,4 +89,5 @@ class DocumentCollectionVC: UIViewController, UICollectionViewDataSource, UIColl
         // You are responsible for dismissing the ImageScannerController
         scanner.dismiss(animated: true)
     }
+    
 }
